@@ -1,6 +1,5 @@
 <!-- Author - Harshit Pandey -->
 <!-- Blog  -http://www.oyecode.com -->
-
 <apex:page standardController="Account" standardStylesheets="false" showheader="false">
     <html>
         <head>
