@@ -1,6 +1,8 @@
 # GoogleMapV3
 Simple Code to have Google Map V3 API display accounts information on Visualforce
 
+## Learn how to add Google Map to Salesforce on OyeCode at http://www.oyecode.com/2015/01/how-to-add-google-map-in-salesforce.html
+
  ##<b>Adding Bouncing Pin : </b><br/>
 ![ScreenShot](http://2.bp.blogspot.com/-Hn4AeuiEx2A/VLccWMLBZbI/AAAAAAAAIT8/Ot37J95I6Dk/s1600/pin-animated.gif)
 
