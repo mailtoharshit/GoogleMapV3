@@ -30,4 +30,4 @@ Simple Code to have Google Map V3 API display accounts information on Visualforc
   } 
    ```
 
-##<b>Fork Repository and Clone Code to check full code</b><br/>
+Fork Repository and Clone Code to check full code<br/>
