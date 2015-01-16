@@ -1,13 +1,13 @@
 # GoogleMapV3
 Simple Code to have Google Map V3 API display accounts information on Visualforce
 
-## Learn how to add Google Map to Salesforce on OyeCode at http://www.oyecode.com/2015/01/how-to-add-google-map-in-salesforce.html
+### Learn how to add Google Map to Salesforce on OyeCode at http://www.oyecode.com/2015/01/how-to-add-google-map-in-salesforce.html
 
- ##<b>Adding Bouncing Pin : </b><br/>
+ ##<b>Adding Pin-Drop on map load : </b><br/>
 ![ScreenShot](http://2.bp.blogspot.com/-Hn4AeuiEx2A/VLccWMLBZbI/AAAAAAAAIT8/Ot37J95I6Dk/s1600/pin-animated.gif)
 
  ```
-   ##<b>Sample Donut Chart : </b><br/>
+   ##<b>Script for Pin-Drop Animation : </b><br/>
     marker = new google.maps.Marker({
     map:map,
     draggable:true,
@@ -21,10 +21,12 @@ Simple Code to have Google Map V3 API display accounts information on Visualforc
 
    
   ```
-  ##<b>Sample Donut Chart : </b><br/>
+  ##<b>Pull Salesforce Accounts with Properties : </b><br/>
   public with sharing class GoogleMapsControllers {
   public static Integer getTexasAccounts(){ return [select id from Account where Account.BillingState='TX'].size();}
   public Integer getCaliforniatAccounts() { return [select id from Account where Account.BillingState='TX'].size();}
   public Integer getNewyorktAccounts() { return [select id from Account where Account.BillingState='NY'].size();}
   } 
    ```
+
+##<b>Fork Repository and Clone Code to check full code</b><br/>
